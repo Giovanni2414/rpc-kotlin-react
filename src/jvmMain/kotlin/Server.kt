@@ -35,7 +35,7 @@ fun main() {
             gzip()
         }
         routing {
-            route(ShoppingListItem.path) {
+            route(UserListItem.path) {
                 get {
                     call.respond(shoppingList)
                 }
